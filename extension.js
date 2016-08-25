@@ -51,14 +51,14 @@
       chatLink: "https://rawgit.com/basicBot/source/master/lang/en.json",
       scriptLink: "https://rawgit.com/basicBot/source/master/basicBot.js",
       roomLock: false, // Requires an extension to re-load the script
-      startupCap: 1, // 1-200
+      startupCap: 10, // 1-200
       startupVolume: 0, // 0-100
-      startupEmoji: false, // true or false
+      startupEmoji: true, // true or false
       autowoot: true,
       autoskip: false,
       smartSkip: true,
       cmdDeletion: true,
-      maximumAfk: 120,
+      maximumAfk: 180,
       afkRemoval: true,
       maximumDc: 60,
       bouncerPlus: true,
@@ -68,13 +68,13 @@
       maximumLocktime: 10,
       cycleGuard: true,
       maximumCycletime: 10,
-      voteSkip: false,
+      voteSkip: true,
       voteSkipLimit: 10,
       historySkip: false,
       timeGuard: true,
       maximumSongLength: 10,
       autodisable: true,
-      commandCooldown: 30,
+      commandCooldown: 20,
       usercommandsEnabled: true,
       skipPosition: 3,
       skipReasons: [
@@ -93,7 +93,7 @@
       motd: "Temporary Message of the Day",
       filterChat: true,
       etaRestriction: false,
-      welcome: true,
+      welcome: false,
       opLink: null,
       rulesLink: null,
       themeLink: null,
